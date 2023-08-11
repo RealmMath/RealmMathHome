@@ -15,7 +15,7 @@ export default function GameState_Playing({ game, player }) {
       <div class="grid h-screen place-items-center">
         <p>The game has started!</p>
         <div className="divider divider-horizontal" />
-        <p>Build your amazing game from here! :)</p>
+        <p>COMMING SOON!</p>
 
         <ul class="menu bg-base-200 w-100 p-2 rounded-box">
           <p className="p-3">Heres some debug data if you want it:</p>
