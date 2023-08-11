@@ -45,7 +45,7 @@ export default function HostWaiting({ gameId }) {
 
       <div className="navbar bg-base-200">
         <div className="navbar-start">
-          <p className="text-2xl">Go to <b>example.com/play</b> and enter the Game ID</p>
+          <p className="text-2xl">Go to <b>realmmath.github.io/play</b> and enter the Game ID</p>
         </div>
         <div className="navbar-center">
           <a className="btn btn-ghost normal-case text-5xl" onClick={() => {navigator.clipboard.writeText(gameId); toast.success("Copied to clipboard!")}}>{gameId}</a>
